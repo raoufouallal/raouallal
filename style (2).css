@@ -1,0 +1,205 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navb {
+    width: 100%;
+    height: 70px;
+}
+
+.navb p {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float:left;
+    margin-top: 0;
+    padding: 2px;
+    color: #303a41;
+}
+
+.navb ul{
+    list-style-type:none;
+    float:left;
+    margin-left:30%;
+    width: 40%;
+    margin-top: 30px;
+}
+.navb ul li {
+    display: inline;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #21455e;
+}
+
+.navb ul li:hover{ 
+    color: red;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+	background-image: url(img/bcgr.png)
+	
+}
+
+.header {
+	background-size: cover;
+   
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.01;
+}
+
+.header p {
+    position: absolute;
+    top: 99px;
+    left: 23%;
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
+    border-bottom: solid red;
+}
+
+.about {
+    padding: 80px 0 80px 0 ;
+}
+
+.about p {
+    width: 54%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+    float: left;
+    margin-left: 4%;
+}
+
+.about p span{
+    display: block;
+}
+
+.about p span{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #21455e;
+    border-bottom: solid thin red ;
+    text-transform: capitalize;
+    width: 37%;
+    margin-bottom: 20px;
+}
+
+.about img {
+   width:12cm;
+    height: 9cm;
+    margin-left: 3%;
+    margin-top: 2.2%;
+    box-shadow: 10px 0 200px black;
+}
+
+
+.serv {
+    padding: 80px 0;
+    position: relative;
+}
+
+.serv .opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.serv span {
+    color: #21455e;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border-bottom: solid red;
+    position: absolute;
+    left: 40%;
+    z-index: 3; 
+    text-transform: capitalize;
+    margin-top: -40px;
+}
+
+.serv .item{
+    width: 20%;
+    color: rgb(0, 0, 0) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+.serv .item i{
+    background-color: rgba(255, 0, 0, 0.192);
+    padding: 2px;
+    
+}
+
+.our-works span{
+    color: #21455e;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border-bottom: solid red;
+    text-transform: capitalize;
+    margin-left: 39%;
+    width: 40%;
+    margin-top: 900px;
+   
+
+}
+
+.our-works img{
+    width: 25%;
+    height: 250px;
+    margin: 5% 0 0 6.5%;
+}
+
+.conact {
+    padding: 100px 0;
+}
+
+.conact .item{
+    width: 25%;
+    height: 100px;
+    float: left;
+    box-shadow: 0 0 20px black;
+    margin-left: 6%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #21455e;
+    margin-bottom:50px ;
+}
+
+.conact li{
+    list-style: none;
+    list-style-type: none;
+}
+
+.copyright{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.navb a{
+    color: #21455e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
